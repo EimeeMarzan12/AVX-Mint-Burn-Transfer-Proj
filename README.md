@@ -16,7 +16,7 @@ The MyToken contract is built using the OpenZeppelin library, providing a secure
 
 Before deploying this contract, ensure that you have the following:
 
-- **Solidity Compiler**: Version `^0.8.0` or higher
+- **Solidity Compiler**: Version `^0.8.20` or higher
 - **Remix IDE**: An online Solidity development environment (https://remix.ethereum.org)
 
 ### Executing the Program
