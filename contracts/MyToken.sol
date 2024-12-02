@@ -19,4 +19,12 @@ contract MyToken is ERC20, ERC20Permit, Ownable {
     function burn(uint256 amount) external {
         _burn(msg.sender, amount);
     }
+
+    function transfer(address to, uint256 value) public virtual returns (bool) {
+        address owner = _msgSender();
+        _transfer(owner, to, value);
+        return true;
+    }
+
+
 }
